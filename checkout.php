@@ -48,12 +48,8 @@ else {
             </div>
 
             <div class="input-field col s6">
-              <select class="icons" name="country" value="<?= $country_sess; ?>">
-          <option value=""  disabled selected>Choose your country</option>
-          <option value="Morocco">Morocco</option>
-          <option value="Egypt">Egypt</option>
-          <option value="Algeria">Algeria</option>
-        </select>
+			<input id="icon_prefix" type="text" name="country" value='<?= $country_sess; ?>' class="validate" required>
+              
         <label>Country</label>
             </div>
 
